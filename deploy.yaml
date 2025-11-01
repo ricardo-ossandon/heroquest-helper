@@ -1,0 +1,56 @@
+# Nombre del "Workflow"
+name: Deploy Vue App to GitHub Pages
+
+# Cuándo se ejecuta:
+# Cada vez que haces 'push' a la rama 'main'
+on:
+  push:
+    branches: [ main ] # (Cámbialo a 'master' si usas esa)
+
+# Permisos necesarios para que la Action pueda escribir en GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  # Solo hay un trabajo: construir y desplegar
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Clona tu repositorio al runner
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # 2. Configura Node.js
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18 # (Usa una versión de Node LTS)
+          cache: 'npm'
+
+      # 3. Instala las dependencias
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Construye la aplicación (aquí Vite usa el 'base' que configuramos)
+      - name: Build
+        run: npm run build
+
+      # 5. Prepara el "artefacto" (la carpeta /dist) para subir
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      # 6. Sube el artefacto
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './dist' # Vite construye todo en la carpeta 'dist'
+
+      # 7. Despliega en GitHub Pages
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
