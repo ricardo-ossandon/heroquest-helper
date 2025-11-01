@@ -29,6 +29,7 @@ onMounted(() => {
 <template>
   <header>
     <h1>HeroQuest Helper</h1>
+    <p>v 0.0.1</p>
   </header>
 
   <main>
