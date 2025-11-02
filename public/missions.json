@@ -1,0 +1,73 @@
+[
+  {
+    "id": 1,
+    "title": "La Prueba del Héroe (Misión 1)",
+    "briefing": "Encuentra el tesoro sin caer en trampas.",
+    "startLocation": [1825, 684],
+
+    "doors": [
+      {
+        "id": "D0",
+        "type": "NORMAL",
+        "initialState": "CLOSED",
+        "linkedAreas": ["R16", "CORRIDOR_S_EXT"],
+        "coords": [923, 1143],
+        "orientation": "H"
+      },
+      {
+        "id": "D1",
+        "type": "NORMAL",
+        "initialState": "CLOSED",
+        "linkedAreas": ["CORRIDOR_S_EXT", "R17"],
+        "coords": [924, 2343],
+        "orientation": "H"
+      },
+      {
+        "id": "D2",
+        "type": "NORMAL",
+        "initialState": "CLOSED",
+        "linkedAreas": ["R17", "R18"],
+        "coords": [1652, 2787],
+        "orientation": "V"
+      },
+      {
+        "id": "D3",
+        "type": "NORMAL",
+        "initialState": "CLOSED",
+        "linkedAreas": ["R18", "CORRIDOR_H_INNER_BOT"],
+        "coords": [2435, 3241],
+        "orientation": "H"
+      },
+
+      {
+        "id": "D_CENTER_W",
+        "type": "SECRET",
+        "initialState": "BARRED",
+        "linkedAreas": ["R1"],
+        "coords": [5130, 1574],
+        "orientation": "H"
+      }
+    ],
+
+    "missionAreas": [
+      {
+        "areaId": "R17",
+        "initialState": "CLOSED",
+        "entities": [
+          {
+            "coords": [1966, 2342],
+            "image": "orc.svg"
+          },
+          {
+            "coords": [1673, 2630],
+            "image": "orc.svg"
+          }
+        ]
+      },
+      {
+        "areaId": "R16",
+        "initialState": "OPEN"
+      }
+    ]
+  }
+]

@@ -1,0 +1,356 @@
+{
+  "areas": [
+    {
+      "id": "CORRIDOR_N_EXT",
+      "name": "Pasillo Exterior Norte",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [6335, 90],
+        [6055, 7880]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_S_EXT",
+      "name": "Pasillo Exterior Sur",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [908, 90],
+        [636, 7880]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_V_CENTER_TOP",
+      "name": "Pasillo Vertical Centro Superior",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [6335, 3693],
+        [4253, 4281]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_V_CENTER_BOT",
+      "name": "Pasillo Vertical Centro Inferior",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [2730, 3688],
+        [636, 4281]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_H_MID_W",
+      "name": "Pasillo Horizontal Medio Oeste",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [3636, 90],
+        [3345, 3070]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_H_MID_E",
+      "name": "Pasillo Horizontal Medio Este",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [3636, 4886],
+        [3345, 7894]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_H_INNER_TOP",
+      "name": "Pasillo Horizontal Interior Superior",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [4528, 2800],
+        [4253, 5170]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_H_INNER_BOT",
+      "name": "Pasillo Horizontal Interior Inferior",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [2730, 2800],
+        [2450, 5170]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_V_INNER_W",
+      "name": "Pasillo Vertical Interior Oeste",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [4528, 2800],
+        [2450, 3070]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_V_INNER_E",
+      "name": "Pasillo Vertical Interior Este",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [4528, 4886],
+        [2450, 5170]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_W_EXT",
+      "name": "Pasillo Exterior Oeste",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [6335, 90],
+        [636, 373]
+      ],
+      "color": "#4A4A4A"
+    },
+    {
+      "id": "CORRIDOR_E_EXT",
+      "name": "Pasillo Exterior Este",
+      "type": "CORRIDOR",
+      "mapArea": [
+        [6335, 7596],
+        [636, 7894]
+      ],
+      "color": "#4A4A4A"
+    },
+
+    {
+      "id": "R1",
+      "name": "Exterior Superior Izquierda (Marrón)",
+      "type": "ROOM",
+      "mapArea": [
+        [6030, 400],
+        [5147, 1560]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R2",
+      "name": "Superior Media Izquierda (Rojo)",
+      "type": "ROOM",
+      "mapArea": [
+        [6030, 1588],
+        [5147, 2764]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R3",
+      "name": "Superior Interior Izquierda (Azul)",
+      "type": "ROOM",
+      "mapArea": [
+        [6030, 2796],
+        [4551, 3657]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R4",
+      "name": "Superior Derecha (Naranja)",
+      "type": "ROOM",
+      "mapArea": [
+        [6030, 4302],
+        [4553, 5169]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R5",
+      "name": "Media Izquierda (Gris)",
+      "type": "ROOM",
+      "mapArea": [
+        [6030, 5210],
+        [4852, 6375]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R6",
+      "name": "Superior Derecha (Amarilla)",
+      "type": "ROOM",
+      "mapArea": [
+        [6030, 6417],
+        [4852, 7570]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R7",
+      "name": "Superior Izquierda (Gris)",
+      "type": "ROOM",
+      "mapArea": [
+        [5124, 400],
+        [3653, 1557]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R8",
+      "name": "Media Izquierda (Verde)",
+      "type": "ROOM",
+      "mapArea": [
+        [5124, 1603],
+        [3660, 2756]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R9",
+      "name": "Media Derecha (Naranja)",
+      "type": "ROOM",
+      "mapArea": [
+        [4817, 5210],
+        [3660, 6370]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R10",
+      "name": "Exterior Derecha (Lima)",
+      "type": "ROOM",
+      "mapArea": [
+        [4817, 6408],
+        [3660, 7570]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R11",
+      "name": "Exterior Abajo Izquierda (Amarilla)",
+      "type": "ROOM",
+      "mapArea": [
+        [3300, 397],
+        [2146, 1566]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R12",
+      "name": "Pequeña 1 (Celeste)",
+      "type": "ROOM",
+      "mapArea": [
+        [3300, 1589],
+        [2445, 2164]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R13",
+      "name": "Pequeña 2 (Celeste)",
+      "type": "ROOM",
+      "mapArea": [
+        [3300, 2202],
+        [2445, 2762]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R14",
+      "name": "Media Abajo Derecha L_1 (Gris)",
+      "type": "ROOM",
+      "mapArea": [
+        [3300, 5200],
+        [2430, 6380]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R14",
+      "name": "Media Abajo Derecha L_2 (Gris)",
+      "type": "ROOM",
+      "mapArea": [
+        [2430, 5500],
+        [2140, 6380]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R15",
+      "name": "Exterior Abajo Derecha (Amarilla)",
+      "type": "ROOM",
+      "mapArea": [
+        [3300, 6411],
+        [2140, 7570]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R16",
+      "name": "Exterior Abajo Izquierda (Gris)",
+      "type": "ROOM",
+      "mapArea": [
+        [2107, 400],
+        [944, 1560]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R17",
+      "name": "Media Abajo Izquierda (Roja)",
+      "type": "ROOM",
+      "mapArea": [
+        [2410, 1600],
+        [944, 2765]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R18",
+      "name": "Interior Abajo Izquierda (Amarilla)",
+      "type": "ROOM",
+      "mapArea": [
+        [2410, 2810],
+        [944, 3656]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R19",
+      "name": "Interior Abajo Derecha (Marrón)",
+      "type": "ROOM",
+      "mapArea": [
+        [2410, 4311],
+        [944, 5474]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R20",
+      "name": "Media Abajo Derecha (Naranja)",
+      "type": "ROOM",
+      "mapArea": [
+        [2100, 5500],
+        [944, 6373]
+      ],
+      "color": "#1A1A1A"
+    },
+
+    {
+      "id": "R21",
+      "name": "Inferior Derecha (Verde Cuadrado)",
+      "type": "ROOM",
+      "mapArea": [
+        [2104, 6414],
+        [940, 7569]
+      ],
+      "color": "#1A1A1A"
+    },
+    {
+      "id": "R_CENTRAL",
+      "name": "Sala Central",
+      "type": "ROOM",
+      "mapArea": [
+        [4253, 3070],
+        [2730, 4886]
+      ],
+      "color": "#333333"
+    }
+  ]
+}

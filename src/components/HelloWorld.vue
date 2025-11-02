@@ -17,7 +17,7 @@ onMounted(() => {
   // Ahora usamos 'L.map' con opciones especiales.
   const map = L.map('map', {
     crs: L.CRS.Simple, // ¡IMPORTANTE! Usa un sistema de coordenadas simple (X, Y)
-    minZoom: -3,       // Ajusta el zoom mínimo (permite alejar más)
+    minZoom: -4.5,       // Ajusta el zoom mínimo (permite alejar más)
     maxZoom: 2,        // Ajusta el zoom máximo (permite acercar más)
     zoomSnap: 0.1,     // Permite valores de zoom intermedios
   });
